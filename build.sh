@@ -10,7 +10,6 @@ apt install devscripts -y
 mk-build-deps --install
 make
 make clean
-cp ../Logo.bmp debian/
 cp ../sedPatch-pve-edk2-firmware-anti-dection.sh edk2/
 cd edk2
 chmod +x sedPatch-pve-edk2-firmware-anti-dection.sh
