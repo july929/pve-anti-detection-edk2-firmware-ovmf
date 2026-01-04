@@ -5,7 +5,10 @@ ls
 df -h
 git clone git://git.proxmox.com/git/pve-edk2-firmware.git
 cd pve-edk2-firmware
-#git reset --hard 17443032f78eaf9ae276f8df9d10c64beec2e048
+# pve8 4.2025.02-4~bpo12+1
+git reset --hard d6d1dfa76c6eb6e27c0cd873e902c4387571bd3a
+# pve9 4.2025.05-2
+#git reset --hard 224fdd7df4e9aedea8b6821eb44545cf9c247584
 sudo apt install devscripts -y
 yes | sudo mk-build-deps --install
 git submodule update --init --recursive
