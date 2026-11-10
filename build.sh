@@ -12,7 +12,7 @@ cd pve-edk2-firmware
 sudo apt install devscripts -y
 yes | sudo mk-build-deps --install
 git submodule update --init --recursive
-cp ../Logo1.bmp debian/Logo.bmp
+cp ../Logo.bmp debian/
 cp ../sedPatch-pve-edk2-firmware-anti-dection.sh edk2/
 cd edk2
 meson subprojects download
